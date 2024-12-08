@@ -1,0 +1,35 @@
+# macOS 시스템 파일
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Spotlight 검색 파일
+*.Spotlight-V100*
+*.Trashes
+*.VolumeIcon.icns
+
+# Icon? 파일 (폴더 아이콘)
+Icon?
+
+# 파일 충돌 기록
+*.swp
+*.lock
+*.log
+*.pid
+*.seed
+*.backup
+
+# Vim swap files
+.*.sw[a-z]
+
+# macOS 자동 생성 Thumbs 파일
+._*
+
+# 특정 폴더 제외
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+coverage/
